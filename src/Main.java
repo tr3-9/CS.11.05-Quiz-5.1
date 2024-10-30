@@ -39,8 +39,8 @@ public class Main {
     public static int[] zip(int[] array1, int[] array2) {
         int[] myziparray = new int[array1.length + array2.length];
         for (int i = 0; i < array1.length; i++) {
-            myziparray[i * 2] = array1[i];
-            myziparray[i * 2 + 1] = array2[i];
+            myziparray[i*2+1] = array2[i];
+            myziparray[i*2] = array1[i];
         }
         return myziparray;
     }
