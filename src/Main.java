@@ -37,12 +37,12 @@ public class Main {
      * zip(myArray1, myArray2) → {1,2,3,4,5,6,7,8,9,10}
      */
     public static int[] zip(int[] array1, int[] array2) {
-        int[] zippedArray = new int[array1.length + array2.length];
+        int[] myziparray = new int[array1.length + array2.length];
         for (int i = 0; i < array1.length; i++) {
-            zippedArray[i * 2] = array1[i];
-            zippedArray[i * 2 + 1] = array2[i];
+            myziparray[i * 2] = array1[i];
+            myziparray[i * 2 + 1] = array2[i];
         }
-        return zippedArray;
+        return myziparray;
     }
 
 
